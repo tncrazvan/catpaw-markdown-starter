@@ -1,4 +1,7 @@
 <?php
+
+use CatPaw\Web\Attributes\StartWebServer;
+
+#[StartWebServer]
 function main() {
-    echo "hello world\n";
 }
